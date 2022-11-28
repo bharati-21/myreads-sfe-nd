@@ -25,7 +25,8 @@ The app has the following features:
   - Optimized search with debouncing
   ![Screenshot Optimized searching](https://user-images.githubusercontent.com/51514137/204287228-a2913957-772e-4f65-a685-3bd93b393a08.png)
   ![Screenshot Search Results](https://user-images.githubusercontent.com/51514137/204287340-5513b1f6-7ffe-4c66-b51c-a98f9aeb07c3.png)
-- Book details page to view title, authors, description, subtitle, categories, and current shelf (if any) of the book
+- Book details page to view information about the book
+  - Book title, author name, subtitle, book cover image, description, current shelf (if any) and categories
   ![Screenshot Book Details Page](https://user-images.githubusercontent.com/51514137/204287567-f64754fc-d42e-4152-ad01-eda684aba00b.png)
 
  
