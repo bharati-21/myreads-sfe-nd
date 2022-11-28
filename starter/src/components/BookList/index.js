@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Book } from "components";
 
 const BookList = ({ books, onShelfChange }) => {
@@ -11,3 +12,8 @@ const BookList = ({ books, onShelfChange }) => {
 };
 
 export { BookList };
+
+BookList.propTypes = {
+	books: PropTypes.array.isRequired,
+	onShelfChange: PropTypes.func.isRequired,
+};

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getJoinedAuthorNames } from "utils/getJoinedAuthorNames";
@@ -70,3 +71,8 @@ const Book = ({ book, onShelfChange }) => {
 };
 
 export { Book };
+
+Book.propTypes = {
+	book: PropTypes.object.isRequired,
+	onShelfChange: PropTypes.func.isRequired,
+};

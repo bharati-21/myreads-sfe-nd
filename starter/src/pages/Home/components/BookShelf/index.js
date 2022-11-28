@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { constants } from "Constants";
 import { BookList } from "components/";
 
@@ -13,3 +14,9 @@ const BookShelf = ({ shelf, books, onShelfChange }) => {
 };
 
 export { BookShelf };
+
+BookShelf.propTypes = {
+	shelf: PropTypes.string.isRequired,
+	books: PropTypes.array.isRequired,
+	onShelfChange: PropTypes.func.isRequired,
+};
