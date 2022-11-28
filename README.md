@@ -5,6 +5,7 @@
 1. [App Features](#app-features)
 1. [Technologies Used](#technologies-used)
 1. [Local Setup and Installation](#local-setup-and-installation)
+1. [Future Work](#future-work)
 1. [Social Links](#social-links)
 
 ## Overview
@@ -49,6 +50,14 @@ The app has the following features:
     ```
     npm start
     ```
+## Future Work
+- User Authentication and addition of user login, sign up feature
+  - Allow users to categorize books after login
+  - Account integration with GoodReads
+- Drag and drop books across pages
+- Enhance state management using global state management techniques such as Context API or Redux
+
+<hr />
 
 ## SOCIAL LINKS
 Let's connect and talk about development, music, books and much more 🌠! 
