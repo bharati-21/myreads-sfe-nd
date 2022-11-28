@@ -16,11 +16,17 @@ The app has the following features:
   - Currently Reading
   - Want to read
   - Read
+  ![Screenshot Home Page](https://user-images.githubusercontent.com/51514137/204286712-fd1a6a39-1682-4396-8c68-5dd5b32b5dc0.png)
 - Edit/ update categories by clicking on the dropdown on any book
-- Remove a book from any of the shelf to "none"
+  - Remove a book from any of the shelf to "none"
+  ![Screenshot Update/ Remove book shelf](https://user-images.githubusercontent.com/51514137/204287027-a5bd8647-b2d8-46e6-aaf1-3f72ea6f6e7e.png)
 - Search page with user input to find a book and add to any shelves
   - Optimized search with debouncing
+  ![Screenshot Optimized searching](https://user-images.githubusercontent.com/51514137/204287228-a2913957-772e-4f65-a685-3bd93b393a08.png)
+  ![Screenshot Search Results](https://user-images.githubusercontent.com/51514137/204287340-5513b1f6-7ffe-4c66-b51c-a98f9aeb07c3.png)
 - Book details page to view title, authors, description, subtitle, categories, and current shelf (if any) of the book
+  ![Screenshot Book Details Page](https://user-images.githubusercontent.com/51514137/204287567-f64754fc-d42e-4152-ad01-eda684aba00b.png)
+
  
 ## Technologies Used
 - HTML/ CSS
@@ -52,9 +58,8 @@ Let's connect and talk about development, music, books and much more 🌠!
 > [Dev.to Blogs](https://dev.to/bharati21) &nbsp;&middot;&nbsp;
 > [Hashnode Blogs](https://bharati.hashnode.dev/) &nbsp;&middot;&nbsp;
 
-<br />
-
 <hr />
+
 <p align="center">Copyright &copy; 2022 
   <br />
   <a href="https://bharati-21.github.io/">👩‍💻 Bharati Subramanian</a>
