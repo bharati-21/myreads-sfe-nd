@@ -54,9 +54,6 @@ Let's connect and talk about development, music, books and much more 🌠!
 
 <br />
 
-Check out my developer portfolio 🌐-
-> [Bharati Subramanian](https://bharati-21.github.io/) 
-
 <hr />
 <p align="center">Copyright &copy; 2022 
   <br />
