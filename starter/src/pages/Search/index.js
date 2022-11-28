@@ -52,6 +52,12 @@ const Search = ({
 	);
 
 	useEffect(() => {
+		if (errorInLoadingShelf) {
+			navigate("/");
+		}
+	}, [errorInLoadingShelf, navigate]);
+
+	useEffect(() => {
 		let mounted = true;
 		if (mounted) {
 			searchBooks(debouncedSearchQuery);
@@ -65,12 +71,7 @@ const Search = ({
 		setSearchQuery(e.target.value);
 	};
 
-	if (errorInLoadingShelf) {
-		navigate("/");
-		return null;
-	}
-
-	return loadingShelf ? (
+	return errorInLoadingShelf ? null : loadingShelf ? (
 		<div className="head">Loading...</div>
 	) : (
 		<div className="search-books">

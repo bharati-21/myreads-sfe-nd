@@ -32,6 +32,12 @@ const BookDetails = ({
 	}, [bookId]);
 
 	useEffect(() => {
+		if (!bookId || errorInLoadingShelf) {
+			navigate("/");
+		}
+	}, [errorInLoadingShelf, navigate, bookId]);
+
+	useEffect(() => {
 		let mounted = true;
 		if (mounted && bookId) {
 			if (!state || !Object.keys(state).length) {
@@ -54,11 +60,6 @@ const BookDetails = ({
 		return book?.shelf || "none";
 	};
 
-	if (!bookId || errorInLoadingShelf) {
-		navigate("/");
-		return null;
-	}
-
 	const {
 		title = "",
 		authors = [],
@@ -70,7 +71,7 @@ const BookDetails = ({
 	const shelf = getShelf();
 	const isCategoryNone = shelf === "none";
 
-	return loading || loadingShelf ? (
+	return errorInLoadingShelf ? null : loading || loadingShelf ? (
 		<div className="head">Loading...</div>
 	) : (
 		<div className="book-details-wrapper">
