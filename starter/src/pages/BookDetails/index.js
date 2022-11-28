@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
+import PropTypes from "prop-types";
 import * as BooksAPI from "BooksAPI";
 import { Book } from "components";
 import { constants } from "Constants";
@@ -128,3 +129,13 @@ const BookDetails = ({
 };
 
 export { BookDetails };
+
+BookDetails.propTypes = {
+	shelfBooks: PropTypes.array.isRequired,
+	onShelfChange: PropTypes.func.isRequired,
+	loadingShelf: PropTypes.bool.isRequired,
+	errorInLoadingShelf: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.bool,
+	]),
+};

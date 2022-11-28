@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
 import { BookList } from "components/";
 import * as BooksAPI from "BooksAPI";
 import { useDebouncedSearchValue } from "hooks/useDebouncedSearchValue";
@@ -111,3 +112,13 @@ const Search = ({
 };
 
 export { Search };
+
+Search.propTypes = {
+	shelfBooks: PropTypes.array.isRequired,
+	onShelfChange: PropTypes.func.isRequired,
+	loadingShelf: PropTypes.bool.isRequired,
+	errorInLoadingShelf: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.bool,
+	]),
+};
