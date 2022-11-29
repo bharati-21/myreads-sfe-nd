@@ -6,7 +6,7 @@
 1. [Technologies Used](#technologies-used)
 1. [Local Setup and Installation](#local-setup-and-installation)
 1. [Future Work](#future-work)
-1. [Social Links](#social-links)
+1. [Author](#author)
 
 ## Overview
 _This project is a part of the Udacity Senior Frontend Engineer - OLX Scholarship Nanodegree._ The aim of this project is to develop a bookshelf app that allows users to select and categorize books they have read, are currently reading or want to read. The application uses React, API server and a client library that persists information as users' interact with the application. The project is developed from the static HTML and CSS template provided by Udacity.
@@ -60,8 +60,10 @@ The app has the following features:
 
 <hr />
 
-## Social Links
-Let's connect and talk about development, music, books and much more 🌠! 
+## Author
+  - <a href="https://bharati-21.github.io/">👩‍💻 Bharati Subramanian</a>
+
+Check out author's social links 
 > [GitHub Profile](https://github.com/bharati-21) &nbsp;&middot;&nbsp; 
 > [LinkedIn Profile](https://www.linkedin.com/in/bharati-subramanian-29734b152/) &nbsp;&middot;&nbsp;
 > [Twitter Profile](https://twitter.com/_bhaaratii) &nbsp;&middot;&nbsp;
