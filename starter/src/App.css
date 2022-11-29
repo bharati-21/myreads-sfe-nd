@@ -19,6 +19,14 @@ body,
 	margin: 0.75rem;
 }
 
+.button {
+	background-color: #333;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	width: max-content;
+	color: #eee;
+}
+
 /* main page */
 
 .list-books-title {
@@ -233,13 +241,8 @@ body,
 	display: none;
 }
 
-.book-details-wrapper .back-home {
-	background-color: #333;
-	padding: 0.25rem 0.5rem;
-	text-decoration: none;
+.book-details-wrapper .button {
 	grid-column: 1/-1;
-	width: max-content;
-	color: #eee;
 }
 
 .book-details {
