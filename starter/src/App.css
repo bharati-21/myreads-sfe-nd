@@ -274,6 +274,20 @@ body,
 	font-size: 0.75rem;
 }
 
+/* not found */
+
+.not-found-image {
+	background: url("./icons/not-found.svg") no-repeat center center;
+	height: 80vh;
+}
+
+.not-found-wrapper .button {
+	margin: 2rem auto 0;
+	display: block;
+	max-width: max-content;
+	width: 100%;
+}
+
 @media screen and (max-width: 480px) {
 	.book-details-grid {
 		justify-items: center;
