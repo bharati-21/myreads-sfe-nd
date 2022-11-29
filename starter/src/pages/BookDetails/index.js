@@ -88,7 +88,7 @@ const BookDetails = ({
 				)}
 			</div>
 			<div className="book-details-grid">
-				<Link to="/" className="back-home">
+				<Link to="/" className="button">
 					Home
 				</Link>
 				{!error && (
