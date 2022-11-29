@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { BookDetails, Home, Search } from "./pages";
+import { BookDetails, Home, NotFound, Search } from "./pages";
 import * as BooksAPI from "./BooksAPI";
 
 function App() {
@@ -88,6 +88,7 @@ function App() {
 						/>
 					}
 				/>
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</div>
 	);
