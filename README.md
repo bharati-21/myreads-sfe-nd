@@ -61,7 +61,9 @@ The app has the following features:
 <hr />
 
 ## Author
-Let's connect and talk about development, music, books and much more 🌠! 
+  - <a href="https://bharati-21.github.io/">👩‍💻 Bharati Subramanian</a>
+
+Check out author's social links 
 > [GitHub Profile](https://github.com/bharati-21) &nbsp;&middot;&nbsp; 
 > [LinkedIn Profile](https://www.linkedin.com/in/bharati-subramanian-29734b152/) &nbsp;&middot;&nbsp;
 > [Twitter Profile](https://twitter.com/_bhaaratii) &nbsp;&middot;&nbsp;
