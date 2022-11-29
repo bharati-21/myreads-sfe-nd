@@ -60,7 +60,7 @@ The app has the following features:
 
 <hr />
 
-## SOCIAL LINKS
+## Social Links
 Let's connect and talk about development, music, books and much more 🌠! 
 > [GitHub Profile](https://github.com/bharati-21) &nbsp;&middot;&nbsp; 
 > [LinkedIn Profile](https://www.linkedin.com/in/bharati-subramanian-29734b152/) &nbsp;&middot;&nbsp;
